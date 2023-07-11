@@ -1,0 +1,29 @@
+h1{
+  font-family:Lucida Handwriting;
+  text-align: center;
+  color:rgb(208, 242, 246);
+  text-shadow: 1.7px 1.7pX rgb(98, 124, 230) ;
+  
+}
+body{
+background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+background-size: 600% 600%;
+animation: gradient 15s ease infinite;
+height: 100vh;
+width: auto;
+}
+button{
+  text-align: center;
+  margin: left;
+}
+@keyframes gradient {
+0% {
+  background-position: 0% 50%;
+}
+50% {
+  background-position: 100% 50%;
+}
+100% {
+  background-position: 0% 50%;
+}
+}

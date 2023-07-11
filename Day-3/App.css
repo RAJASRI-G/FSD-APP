@@ -1,0 +1,138 @@
+body {
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	background-image:url("back.webp");
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+	body, div,form, input, p { 
+	padding: 0;
+	margin: 10;
+	outline: none;
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 16px;
+	color: #1b0707;
+	}
+	h1 {
+	padding: 10px 0;
+	font-size: 32px;
+	font-weight: 300;
+  font-family:algerian;
+	text-align: center;
+	color:white;
+	}
+	p {
+	font-size: 12px;
+	color:whitesmoke
+	}
+	hr {
+	color: #2d2929;
+	opacity: 0.3;
+	}
+	.main-block {
+	max-width: 450px; 
+	min-height: 560px; 
+	padding-top: 10px 20px;
+	margin: 60px;
+	border-radius: 5px; 
+	border: solid 1px black;
+	box-shadow:8px 8px 8px rgba(48, 174, 228, 0.31); 
+	background: transparent; 
+	text-shadow: #1b0707;
+	color:white;
+}
+form {
+	margin: 0 30px;
+	}
+	.account-type, .gender {
+	margin: 15px 0;
+	}
+	input[type=radio] {
+	display: none;
+	}
+	label#icon {
+		margin: 0;
+		border-radius: 5px 0 0 5px;
+	}
+	label.radio {
+		color:white;
+	position: relative;
+	display: inline-block;
+	padding-top: 4px;
+	margin-right: 20px;
+	text-indent: 30px;
+	overflow: visible;
+	cursor: pointer;
+	}
+	label.radio:before {
+	content: "";
+	position: absolute;
+	top: 2px;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: black;
+	}
+	label.radio:after {
+	content: "";
+	position: absolute;
+	width: 9px;
+	height: 4px;
+	top: 8px;
+	left: 4px;
+	border: 3px solid #fff;
+	border-top: none;
+	border-right: none;
+	transform: rotate(-45deg);
+	opacity: 0;
+	}
+	input[type=radio]:checked + label:after {
+	opacity: 1;
+	}
+	input[type=text], input[type=password],select[id=cars],option[id=c]{
+	width: calc(100% - 57px);
+	height: 36px;
+	margin: 13px 0 0 -5px;
+	padding-left: 10px; 
+	border-radius: 0 5px 5px 0;
+	border: solid 1px black; 
+	box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+	background: transparent; 
+	color:#fff;
+}
+option[id=c]
+{
+		color:black;
+	}
+	input[type=password] {
+	margin-bottom: 15px;
+	}
+	#icon {
+	display: inline-block;
+	padding: 9.3px 15px;
+	box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+	background:black;
+	color: #fff;
+	text-align: center;
+	}
+	.btn-block {
+	margin-top: 10px;
+	text-align: center;
+	}
+	button {
+	width: 100%;
+	padding: 10px 0;
+	margin: 10px auto;
+	border-radius: 5px; 
+	border: none;
+	background: black; 
+	font-size: 14px;
+	font-weight: 600;
+	color: #fff;
+	}
+	button:hover {
+	background:white;
+	color:#1b0707;
+	}
