@@ -1,0 +1,36 @@
+.table1{
+    border: 2px solid rgb(202, 218, 202);
+    border-radius:1cm;
+    width: 1000px;
+    height: 650px;
+    margin-top:60px;
+    margin-left:300px;
+    background:transparent;
+    box-shadow: 10px 10px 8px #e078a2;
+    color:aquamarine;
+    font-family:Comic Sans MS;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 0.5cm;
+    box-shadow: 5px 5px 5px #ac78e0;
+    float: left;
+    width: 186px;
+    padding-left:30px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    color:white;
+  }
