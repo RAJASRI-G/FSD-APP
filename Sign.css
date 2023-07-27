@@ -1,0 +1,71 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image:url("a.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .login_form {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color:transparent;
+    box-shadow: 5px 5px 5px #ccc;
+    width: 400px;
+    text-align: center;
+    color:white;
+  }
+  
+  .login_form h1 {
+    margin-bottom: 20px;
+    padding:10px;
+  }
+  
+  .form-floating {
+    margin-bottom: 10px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn {
+    cursor: pointer;
+  }
+  
+  .gogo {
+    margin-bottom: 20px;
+  }
+  
+  .jo {
+    margin-bottom: 20px;
+  }
+  
+  span {
+    color: red;
+  }
+  
+  h2 {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  h2 a {
+    color: blue;
+    text-decoration: none;
+  }
+  .in{
+     border-radius:5px;
+  }
+  .d
+  {
+    color:white;
+  }
+  

@@ -1,0 +1,176 @@
+body
+{
+  background:url(https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-52393.jpg?size=626&ext=jpg);
+  background-color:black;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.glow-on-hover5{
+  font-family:Comic Sans MS;
+  font-size: 25px;
+  width: 100px;
+  height: 40px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  margin-left: 0px;
+  border-color: white;
+}
+
+.glow-on-hover5:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+}
+
+.glow-on-hover5:active {
+  color: #000
+}
+
+.glow-on-hover5:active:after{
+  background: transparent;
+}
+
+.glow-on-hover5:hover:before {
+  opacity: 1;
+}
+
+.glow-on-hover5:after{
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+.glow-hover4{
+  font-family:Comic Sans MS;
+  font-size: 20px;
+  width: 200px;
+  height: 40px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 500px;
+}
+
+.glow-hover4:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+}
+
+.glow-hover4:active {
+  color: #000
+}
+
+.glow-hover4:active:after{
+  background: transparent;
+}
+
+.glow-hover4:hover:before {
+  opacity: 1;
+}
+
+.glow-hover4:after{
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+
+h1{
+  text-align: center;
+  font-family: Algerian;
+}
+.card-body {
+border: 3px solid rgb(207, 31, 31);      
+text-align: center;
+background-image: url("l.jpg");  
+background-repeat: no-repeat;
+background-size: cover;
+font-size: 20px; 
+}
+.gradient-custom {
+
+  background: linear-gradient(to right, rgba(#020024), rgba(#090979));
+}
+.tabl{
+background:transparent;
+color:black;
+width:1000px;
+}
+.nav-item
+{
+  text-decoration:none;
+  background-color:transparent;
+  border-radius:10px;
+  width:50px;
+  margin-left:650px;
+  padding: 10px;
+}
+.nav-item1
+{
+  text-decoration:none;
+  border-radius:10px;
+  width:50px;
+  margin-left:30px;
+  padding: 10px;
+}
+.container
+{
+ background-color:transparent;
+}
